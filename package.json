@@ -1,0 +1,23 @@
+{
+  "name": "longify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx @biomejs/biome format --write ./src",
+    "start": "node index.js",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prince Wilson",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}
